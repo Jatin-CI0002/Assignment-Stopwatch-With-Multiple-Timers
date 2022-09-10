@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Simple Stopwatch</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"><h1>Let's Watch time with us</h1></div>
+      <div class="timer">
+        <div class="circle">
+          <span>
+            <span id="minute1">00</span> : <span id="second1">00</span> :
+            <span id="mSecond1">00</span>
+          </span>
+          <div class="controls">
+            <button name="start" class="control-btn" id="start1">Start</button>
+            <button name="stop" class="control-btn" id="stop1">Stop</button>
+            <button name="reset" class="control-btn" id="reset1">Reset</button>
+          </div>
+        </div>
+        <div class="circle">
+          <span>
+            <span id="minute2">00</span> : <span id="second2">00</span> :
+            <span id="mSecond2">00</span>
+          </span>
+          <div class="controls">
+            <button name="start" class="control-btn" id="start2">Start</button>
+            <button name="stop" class="control-btn" id="stop2">Stop</button>
+            <button name="reset" class="control-btn" id="reset2">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
