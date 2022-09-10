@@ -6,7 +6,7 @@ let startButton2 = document.getElementById("start2");
 let stopButton2 = document.getElementById("stop2");
 let resetButton2 = document.getElementById("reset2");
 
-let minute1 = document.getElementById("minute1");
+let minute1 = document.getElementById("minute1"); 
 let second1 = document.getElementById("second1");
 let mSecond1 = document.getElementById("mSecond1");
 
