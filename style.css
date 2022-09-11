@@ -3,7 +3,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-html, 
+html,
 body {
   height: 100%;
 }
@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  box-shadow: inset 0 0 0 1000px rgba(247, 214, 212,0.4);
+  box-shadow: inset 0 0 0 1000px rgba(247, 214, 212, 0.4);
   background: url("https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=900&t=st=1662793569~exp=1662794169~hmac=ba7a5b39a37abe617b05fe7492e45129ba206d362b12fe3e08dd15f3de2c3268");
 }
 .container {
@@ -41,11 +41,11 @@ body {
   grid-area: 2 / 1 / 4 / 3;
 }
 
-h1{
-    font-weight: normal;
+h1 {
+  font-weight: normal;
 }
-span{
-    font-size: 2em;
+span {
+  font-size: 2em;
 }
 .controls {
   display: flex;
@@ -55,13 +55,13 @@ span{
   grid-area: 4 / 1 / 5 / 3;
 }
 
-.control-btn{
-    padding: 2%;
-    font-size: larger;
-    background-color: #b2f7ef;
-    border: 1px solid #7bdff2;
-    font-size: 2em;
-    border-radius: 15%;
-    cursor: pointer;
+.controls1,
+.controls2 {
+  padding: 2%;
+  font-size: larger;
+  background-color: #b2f7ef;
+  border: 1px solid #7bdff2;
+  font-size: 2em;
+  border-radius: 15%;
+  cursor: pointer;
 }
-
